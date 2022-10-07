@@ -61,7 +61,7 @@ export default {
     typescript({
       useTsconfigDeclarationDir: true,
     }),
-    // Allow bundling cjs modules (unlike webpack, rollup doesn't understand cjs)
+    // Allow bundling cjs modules (unlike webpack, rollup doesn't understand cjs).
     commonjs(),
     // Allow node_modules resolution, so you can use 'external' to control
     // which external modules to include in the bundle
