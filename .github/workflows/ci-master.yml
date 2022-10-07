@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - master
+      - main
       - '*.x' # maintenance releases such as 15.x
   workflow_call:
 
