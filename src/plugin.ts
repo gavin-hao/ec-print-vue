@@ -45,7 +45,7 @@ export function createPrinter(options: PrinterOptions): IPrinter {
   _opts.providers.forEach((provider) => {
     let agent;
     // typeof class extends PrintProvider
-    if (provider.providerFactory.prototype.print) {
+    if (provider.providerFactory.prototype?.print) {
       const construct = provider.providerFactory as DerivedProvider;
       agent = new construct({
         options: { ...provider.socketOption, ..._opts.socketOption },
