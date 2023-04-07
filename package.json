@@ -1,6 +1,6 @@
 {
   "name": "ec-print-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ec-print vue3 pulgin",
   "main": "dist/ec-print-vue.umd.js",
   "module": "dist/ec-print-vue.esm.js",

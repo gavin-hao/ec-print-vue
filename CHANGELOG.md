@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/gavin-hao/ec-print-vue/compare/v1.0.0...v1.0.1) (2023-04-07)
+
+
+### Bug Fixes
+
+* **plugin:** detect provider type exception ([03fa07b](https://github.com/gavin-hao/ec-print-vue/commit/03fa07b35403a46db4a90847fcce0339c3570a79))
+
 # 1.0.0 (2022-10-07)
 
 
